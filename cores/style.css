@@ -1,0 +1,27 @@
+@charset "UTF-8"; 
+
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte das letras já definidas sem precisar colocar no h1 ou p etc */
+  
+}
+body{
+    background-image: linear-gradient(to right,#173540,#217373); /* background com degrade */
+}
+main{ /* main é como fosse uma div */
+    border-radius: 10px; /* Deixa as pontas arredondadas */
+    background-color: white; /*cor do fundo */
+    box-shadow: 5px 5px 15px black; /* 5px para o lado , 5px para baixo e 15 px espalhado. E depois, escolhe a cor. */
+    width: 600px; /*Largura */
+    padding: 10px; /*Engordamento, sei la como descrever, mas é útil */
+    margin: auto; /*Centralização. Obs se colocar auto em Margin(Margin msm),ela sempre ficará no meio, ate diminuindo a janela  */
+}
+h1{
+    color: #217373;
+    text-shadow: 1px 1px 1px rgb(88, 88, 88); /*Sombra nos titulos, fica bem bonito viu. E os px fica a mesma coisa ali do box shadows*/
+}
+h2{
+    color: #84B026; 
+}
+p{ 
+    text-align: justify; /* para ficar justinho*/
+}

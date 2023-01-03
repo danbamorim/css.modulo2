@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            color: red;
+            text-decoration: none;
+            /* tira o sublinhado*/
+        }
+ 
+        /* pseudo classi :  */
+
+
+        a:visited {
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            /* . hover é passar o mouse por cima e dar um effeito dahora */
+            color: aqua;
+        }
+
+        a:active {
+            color: yellow;
+            /* È quando é clicado ai da cor  */
+        }
+
+
+        /* pseudo elemento  ::  */
+
+        a::after{ /* adiciona depois do link. E existe tbm o Before que adiciona antes tbm*/
+            content: '[link]'; /* adiciona algo*/
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li><a href="https://www.instagram.com/dba_arte/">ARtesss</a></li>
+        <li><a href="https://github.com/danbamorim">gite</a></li>
+        <li><a
+                href="https://br.pinterest.com/pin/718464946774381309/?amp_client_id=CLIENT_ID%28_%29&mweb_unauth_id=%7B%7Bdefault.session%7D%7D&simplified=true">PIka
+                cchu</a></li>
+    </ol>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+body{ 
+    background-color: bisque;
+}
+
+
+p{
+     font-size: 1em;       /* Tamanho da fonte. 1em equivalente à 16px */
+     font-weight: bolder;      /* weight : peso (bold,bolder,normal) , widht : largura , height : altura */
+     font-style: italic;        /* estilo da fonte ; normal ou italic*/                
+     text-decoration: underline;    /* decoracao sublinhada*/                     
+}
